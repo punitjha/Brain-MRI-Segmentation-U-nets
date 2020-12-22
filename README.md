@@ -44,4 +44,8 @@ all saved as NumPy tensors (.npy).
 
 <img src="images/mri_81.png" alt="alt text" width="750" height="350">
 
+#References
 
+1. https://github.com/as791/Multimodal-Brain-Tumor-Segmentation
+2. https://github.com/woodywff/brats_2019
+3. https://www.kaggle.com/andrewmvd/brain-tumor-segmentation-in-mri-brats-2015
