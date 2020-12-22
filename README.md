@@ -38,8 +38,8 @@ of size H x W x D.
 The train and validation split of the dataset are provided on box. You are provided with 204 labeled (training) samples and 68 unlabelled (validation) images,
 all saved as NumPy tensors (.npy).
 
-<img src="mri_016.png" alt="alt text" width="750" height="350">
+<img src="images/mri_016.png" alt="alt text" width="750" height="350">
 
-<img src="mri_81.png" alt="alt text" width="750" height="350">
+<img src="images/mri_81.png" alt="alt text" width="750" height="350">
 
 
