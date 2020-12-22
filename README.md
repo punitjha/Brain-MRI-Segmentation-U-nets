@@ -14,12 +14,14 @@ The task is to identify the location of the tumor, and its classification into t
 - the necrotic core (dead tissue, generally in the center). 
 This task is important in practice, as the results are used for surgical planning. 
 
-Project Description
+# Project Description
 
 Each sample is a tensor of size = 4 x height (H) x width (W) x depth (D), where the four 3D tensors represent the 
- - a) native (T1) and 
- - b) post-contrast T1-weighted (T1Gd), 
- - c) T2-weighted (T2), and d) T2-FLAIR contrasts (images) of the brain MRI. 
+
+     -  native (T1) and 
+     -  post-contrast T1-weighted (T1Gd), 
+     -  T2-weighted (T2), and 
+     -  T2-FLAIR contrasts (images) of the brain MRI. 
  
 Note that different samples may have slightly different dimensions H, W, and D -- your are models should be able to handle this. 
 For training samples, you are also provided with a HxWxD label “image”, with a label for each voxel (3D pixel). Your task is to predict 
